@@ -1,0 +1,145 @@
+body {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: solid 1px white;
+}
+
+
+
+
+
+#menu {
+width: 100%;
+height: 50%;
+border: 1px solid white;
+   
+}
+#menu a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  }
+
+#menu ul li {
+    display: inline;
+    padding: 5px;
+}
+#menu li :nth-child(1) {
+    margin-left: 1%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+#menu li:nth-child(2) {
+    margin-right: 62%;
+    text-align: right ;
+    text-transform: uppercase;
+
+  }
+#banner {
+position: relative;
+width: 100%;
+height: 100%;
+
+}  
+
+#banner h1 {
+    position: absolute;
+    top:25px;
+    padding-left:4% ;
+    color:white;
+}
+#banner p {
+    position: relative;
+    top:35px;
+    padding-left:4% ;
+    color:white;  }
+    .topleft {
+        position: absolute;
+        top: 150px;
+        left: 9%;
+        font-size: 27px;
+        color:white;
+      }
+  
+      .bottomleft {
+        position: absolute;
+        top: 230px;
+        left: 9%;
+        font-size: 20px;
+        color:white;
+ 
+      }   
+
+
+#banner img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main-content  {
+    background-color: #efefef;
+    position: relative;
+    
+}      
+
+#main-content  h2 {
+    margin-top: -0.3%;
+    padding-left: 4%;
+    padding-top: 3%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
+#main-content  p {
+    padding-left: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#table-img div img {
+    display: flex;
+    height: auto;
+    padding-bottom: 9%;
+    
+}
+
+.flex-container { 
+  display: flex;
+  
+  
+}
+
+
+.flex-container > div {
+  padding: 15px;
+  justify-content: space-around;
+  flex-direction: column ; 
+  
+}
+.container0 {justify-content: space-around;}
+
+
+
+.flex-container1 { 
+  display: flex;
+  
+  
+}
+
+
+.flex-container1 > div {
+  margin: 1px;
+  padding: 15px;
+  font-size: 18px;
+  justify-content: space-around;
+  
+}
+
+#footer {
+    background-color: #f7f7f7;
+    
+
+
+}

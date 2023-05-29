@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<title> Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="tablet.css">
+</head>    
+<body>
+<div>
+ <div id="menu">
+      <ul class="li1" class="row">
+        <li class="li2"><a href="#" target="_blank">Brand</a></li>
+        <li class="li3"><a href="#" target="_blank">Browse</a></li>
+        <li class="li4"><a href="#" target="_blank">Sign Up</a></li>
+        <li class="li5"><a href="#" target="_blank">Log In</a></li>
+        <li class="li6"><a href="#" target="_blank">Help</a></li>
+    </ul>
+  </div>
+
+
+
+ <div id="banner" class="header1">
+
+  <div>
+    <div class="hinh"><img src='https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png'  width="100%" height="25%"></div>
+
+    <div class="topleft" class="col-" >
+      <h1>Find a place to stay.</h1>
+    </div>
+    <div class="bottomleft" class="col-">
+      <p>Rent from people in over 34,000 cities and 192 countries.</p>
+    </div>
+  </div>
+ </div> 
+
+
+ <div id="main-content" class="col-" Class="main1">
+    <h2 class="lotus">Neighborhood Guides</h2>
+    
+    <p class="lotus">Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+    
+  
+   <div id="table-img" class="flex-container container0" class="row1">
+    <div class="col-col-4 col-s-6 box">
+        <img src='https://s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png' 
+        width="360px"/>
+      
+        <img src='https://s3.amazonaws.com/codecademy-content/courses/ltp/img/ny.png'  width="360px"/>
+    </div>
+    
+    <div class="col-col-4 col-s-6 box">
+        <img src='https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png'  width="360px"/>
+     
+        <img src='https://s3.amazonaws.com/codecademy-content/courses/ltp/img/paris.png' width="360px"/>
+    </div>
+    <div class="col-col-4 col-s-6 box">
+        <img src='https://s3.amazonaws.com/codecademy-content/courses/ltp/img/invite.png' width="360px">
+    </div>
+  
+   </div>
+ </div>
+
+
+ <div id="footer" class="flex-container1"  class="row">
+  
+    <div class="col-col-4 col-s-12 box">
+      <h3>Travel</h3>
+      <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 1992 countries.
+      <p><a href="#">See how to travel on Airbnb </a></p>
+    </div>
+    <div class="col-col-4 col-s-12  box">
+      <h3>Host</h3>
+      <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+      <p><a href="#">Learn more about hosting</a></p>
+    </div>
+    <div class="col-col-4 col-s-12 box">
+      <h3>Trust and Safety</h3>
+      <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+      <p><a href="#">Learn about trust at Airbnb</a></p>
+    </div>
+  
+ </div>
+</div>  
+
+
+</body>
+</html>
